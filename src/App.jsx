@@ -866,7 +866,7 @@ export default function PuzzleApp() {
 
       {/* HEADER */}
       <header className="header">
-        <h1 className="title">Jogo da Memória
+        <h1 className="title" id="Jogo da Memória da minha Lyra">
         </h1>
         {gameStatus !== 'idle' && (
           <button 
